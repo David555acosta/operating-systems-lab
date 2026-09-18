@@ -6,6 +6,12 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+//https://learn.microsoft.com/es-es/dotnet/api/system.io.file.create?view=net-10.0
+
+
+
 namespace Sistema_de_archivos
 {
     class Test
