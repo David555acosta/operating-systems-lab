@@ -61,8 +61,16 @@ Simulación de E/S: Gestión de colas de dispositivos bloqueantes y tiempos de t
 🐳 Ejecución y Portabilidad con Docker
 Para asegurar la máxima portabilidad entre entornos Windows y Linux evitando conflictos de librerías locales, el proyecto incluye soporte completo para contenedores.
 
+🐳 Ejecución y Portabilidad con Docker
+
+Para asegurar la máxima portabilidad entre entornos Windows y Linux evitando conflictos de librerías locales (como los encabezados POSIX `<unistd.h>`), el proyecto incluye soporte completo para contenedores y desarrollo en Linux.
+
 Requisitos previos
-Docker Engine y Docker Compose instalados.
+- **Docker Engine** y **Docker Compose** instalados (si usás contenedores).
+- **Compilador GCC / Herramientas de desarrollo:** Si preferís compilar e interactuar directamente en Linux / WSL2 sin Docker, asegurate de instalar las herramientas esenciales desde la terminal:
+
+```bash
+sudo apt update && sudo apt install -y build-essential gcc gdb valgrind
 
 Pasos de ejecución
 Clonar el repositorio:
