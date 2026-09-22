@@ -1,0 +1,3 @@
+C:/Users/LenovoAcosta/Desktop/Programacion/Sexto-Cuatri/OS-REPO/procesos-Intro/funcionExcec/funcionExec/out/build/x64-debug/CMakeFiles/funcionExec.dir
+C:/Users/LenovoAcosta/Desktop/Programacion/Sexto-Cuatri/OS-REPO/procesos-Intro/funcionExcec/funcionExec/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/LenovoAcosta/Desktop/Programacion/Sexto-Cuatri/OS-REPO/procesos-Intro/funcionExcec/funcionExec/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
