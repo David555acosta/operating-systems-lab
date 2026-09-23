@@ -18,13 +18,14 @@ int main()
 		fprintf(stderr, "Error al reservar la memoria");
 	}
 
-	hared_memory, "HOLA!"); //Escribir en el Shared Memory//Enviar a la Pantalla lo que hay en la memoria compartida
-	printf("%s\n", shared_memory);
 
 	//obtener un puntero al Segmento de memoria Compartida
 	shared_memory = (char*)shmat(segment_id, NULL, 0);
 
 	//Enviar a la Pantalla lo que hay en la memoria compartida
-	printf("lectura de memoria compartida [PID %d] Contenido en memoria compartida: %s\n", pid, shared_memory);
+	printf("Memoria compartida leida desde [PID %d] Contenido en memoria compartida: %s\n", pid, shared_memory);
+
+	shmdt(shared_memory); //Desconectar Shared Memory
+	shmctl(segment_id, IPC_RMID, NULL); //Eliminar el espacio de direcciones
 	return 0;
 }
