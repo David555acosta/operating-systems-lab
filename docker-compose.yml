@@ -1,0 +1,11 @@
+services:
+  os-workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: os-repo-app:latest
+    container_name: os_workspace
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app/src

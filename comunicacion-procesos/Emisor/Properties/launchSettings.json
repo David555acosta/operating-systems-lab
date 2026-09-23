@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Emisor": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
